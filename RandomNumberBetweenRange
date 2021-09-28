@@ -1,0 +1,11 @@
+import java.util.Random;
+class RandomNumberBetweenRange
+{
+	public static void main(String[] args) {
+		int min=100;
+		int max=400;
+		//maximum value - minimum value is mul
+		int mul=max-min;
+		System.out.println(Math.ceil(Math.random()*mul+min));
+	}
+}
