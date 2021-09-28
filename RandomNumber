@@ -1,0 +1,7 @@
+import java.util.Random;
+class RandomNumber
+{
+	public static void main(String[] args) {
+		System.out.println(Math.ceil(Math.random()*3));
+	}
+}
